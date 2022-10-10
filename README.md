@@ -6,10 +6,7 @@
 Desenvolvimento de uma solução para Controle Financeiro. Calculando seu saldo conforme suas receitas e despesas. Foi feito uma API REST e um Front-End. Com persistência local realizada em arquivo JSON.
 
 > :construction: Projeto Concluído
-
-
-## 🔨 COMO EXECUTAR O PROJETO
-   
+  
 ## ✔️ Executando o projeto
 
     - ``1. Via terminal pelo Visual Studio Code acessar a pasta webapi do projeto com o comando: cd .\webapi\ ``
