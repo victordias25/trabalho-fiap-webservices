@@ -1,0 +1,202 @@
+{
+    "transacoes": {
+        "validation": {
+            "codigo": {
+                "type": "string",
+                "regex": "^[a-f\\d]{32}$",
+                "isIdentityField": true,
+                "nullable": false,
+                "allowDuplicates": false
+            },
+            "nome": {
+                "type": "string",
+                "regex": "^([^\\s]{3,})(\\s[^\\s]+)*$",
+                "regexDescription": "O primeiro nome deve conter pelo menos 3 caracteres e os demais nomes, caso informados, devem ser separados por apenas 1 espaço",
+                "nullable": false,
+                "allowDuplicates": false
+            },
+            "tipo": {
+                "type": "string",
+                "enum": [
+                    "R",
+                    "D"
+                ],
+                "nullable": false
+            },
+            "valor": {
+                "type": "number",
+                "nullable": false
+            },
+            "dataTransacao": {
+                "type": "string",
+                "regex": "^\\d{4}-\\d{2}-\\d{2}$",
+                "nullable": false
+            },
+            "dataHoraCadastro": {
+                "type": "string",
+                "regex": "^\\d{4}-\\d{2}-\\d{2}\\s\\d{2}:\\d{2}:\\d{2}\\.\\d{3}$",
+                "nullable": false
+            },
+            "ativo": {
+                "type": "boolean",
+                "isActivationField": true,
+                "nullable": false
+            }
+        },
+        "data": [
+            {
+                "nome": "Teste A",
+                "valor": 1000,
+                "tipo": "R",
+                "dataTransacao": "2022-09-28",
+                "codigo": "fa5822d6657e1d43e6a7cf5f5896c148",
+                "dataHoraCadastro": "2022-09-30 15:59:27.587",
+                "ativo": false
+            },
+            {
+                "nome": "Teste despesa 150",
+                "valor": 230,
+                "tipo": "D",
+                "dataTransacao": "2022-09-29",
+                "codigo": "95f5cbe48002cdfd880f5458f5552f8c",
+                "dataHoraCadastro": "2022-09-30 16:01:42.960",
+                "ativo": false
+            },
+            {
+                "nome": "Caiu 1M na minha conta por engano",
+                "valor": 1000000,
+                "tipo": "R",
+                "dataTransacao": "2022-09-30",
+                "codigo": "dd81b98ac4f928b1044cd65f31112fa0",
+                "dataHoraCadastro": "2022-09-30 16:28:03.775",
+                "ativo": false
+            },
+            {
+                "nome": "banana",
+                "valor": 321,
+                "tipo": "R",
+                "dataTransacao": "2022-10-19",
+                "codigo": "aeb563aa4d678f56a4af0e5c2d1b1a2d",
+                "dataHoraCadastro": "2022-10-03 20:11:03.644",
+                "ativo": false
+            },
+            {
+                "nome": "teste front",
+                "valor": 123,
+                "tipo": "D",
+                "dataTransacao": "2022-10-04",
+                "codigo": "dc7d06badd60dfc0a85e6d84a525aa9e",
+                "dataHoraCadastro": "2022-10-03 20:12:09.558",
+                "ativo": false
+            },
+            {
+                "nome": "Deu bom",
+                "valor": 5000,
+                "tipo": "R",
+                "dataTransacao": "2022-10-01",
+                "codigo": "31142e9b9318a93da3a757f113ac2795",
+                "dataHoraCadastro": "2022-10-03 20:17:39.312",
+                "ativo": false
+            },
+            {
+                "nome": "aleluia",
+                "valor": 12345,
+                "tipo": "D",
+                "dataTransacao": "2022-10-19",
+                "codigo": "b8296970f27521e2e5a16578c88768f9",
+                "dataHoraCadastro": "2022-10-03 20:19:06.449",
+                "ativo": false
+            },
+            {
+                "nome": "ete",
+                "valor": 10,
+                "tipo": "D",
+                "dataTransacao": "2022-10-08",
+                "codigo": "ef38c51b3816429d706809f77f37c837",
+                "dataHoraCadastro": "2022-10-08 19:49:18.500",
+                "ativo": false
+            },
+            {
+                "nome": "teste",
+                "valor": 100000000,
+                "tipo": "R",
+                "dataTransacao": "2022-10-08",
+                "codigo": "003e0414b51a8ae3707f696ec659ebb9",
+                "dataHoraCadastro": "2022-10-08 20:03:11.315",
+                "ativo": false
+            },
+            {
+                "nome": "teste m",
+                "valor": 100000,
+                "tipo": "D",
+                "dataTransacao": "2022-10-08",
+                "codigo": "6cea0f27ecaccbb25a8895258f5d026d",
+                "dataHoraCadastro": "2022-10-08 20:03:41.541",
+                "ativo": false
+            },
+            {
+                "nome": "teste novo",
+                "valor": 1000,
+                "tipo": "R",
+                "dataTransacao": "2022-10-13",
+                "codigo": "7b7885e19227564f9fa01d7f80a49805",
+                "dataHoraCadastro": "2022-10-08 20:04:45.742",
+                "ativo": false
+            },
+            {
+                "nome": "teste novo 2",
+                "valor": 10010.1,
+                "tipo": "D",
+                "dataTransacao": "2022-10-08",
+                "codigo": "e4e508bdd0d76972abee240110f6138a",
+                "dataHoraCadastro": "2022-10-08 20:05:06.953",
+                "ativo": false
+            },
+            {
+                "nome": "teste 2",
+                "valor": 1000,
+                "tipo": "D",
+                "dataTransacao": "2022-10-08",
+                "codigo": "144b1d520ba962b2602ab39cc442ba07",
+                "dataHoraCadastro": "2022-10-08 20:16:01.272",
+                "ativo": false
+            },
+            {
+                "nome": "teste total",
+                "valor": 10000,
+                "tipo": "R",
+                "dataTransacao": "2022-10-10",
+                "codigo": "06eed7b49f2ae2459852f5e0af537173",
+                "dataHoraCadastro": "2022-10-08 22:43:05.770",
+                "ativo": false
+            },
+            {
+                "nome": "Nova ddd",
+                "valor": 12031.54,
+                "tipo": "D",
+                "dataTransacao": "2022-10-21",
+                "codigo": "627d5b25d8b420d28f74f9813a5b2f43",
+                "dataHoraCadastro": "2022-10-08 23:14:48.050",
+                "ativo": false
+            },
+            {
+                "nome": "Nicola",
+                "valor": 150,
+                "tipo": "R",
+                "dataTransacao": "2022-10-10",
+                "codigo": "72195ec60cf79e2f4a1a7d9ac52ef40c",
+                "dataHoraCadastro": "2022-10-10 09:28:09.749",
+                "ativo": false
+            },
+            {
+                "nome": "Nicola 1",
+                "valor": 10,
+                "tipo": "D",
+                "dataTransacao": "2022-10-10",
+                "codigo": "ff94d1418ab6ecbd30ec6de60c66a395",
+                "dataHoraCadastro": "2022-10-10 09:28:35.547",
+                "ativo": false
+            }
+        ]
+    }
+}

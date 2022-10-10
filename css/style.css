@@ -1,0 +1,183 @@
+:focus-visible {
+    outline: -webkit-focus-ring-color auto 0px;
+}
+
+section.menu-lateral {
+    position: relative;
+    background: #5c5c5c;
+    width: 100%;
+}
+@media (min-width:1024px) {
+    section.menu-lateral {
+        position: fixed;
+        height: 100vh;
+        width: 200px;
+    }
+}
+
+.logo {
+    width: 100%;
+    display: block;
+    padding: 10px;
+}
+
+.logo a {
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: contain !important;
+    display: block;
+    width: 100%;
+    height: 80px;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+}
+
+@media (min-width:1024px) {
+    section.menu-lateral {
+        position: fixed;
+        height: 100vh;
+        width: 200px;
+    }
+    .logo {
+        padding: 0px;
+    }
+    
+    .logo a {
+        margin: 20px 0px;
+        height: 100px;
+    }
+}
+/*
+Main
+*/
+
+section.barra-top {
+    background: #fbad30;
+    color: black;
+    min-height: 130px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 20px 15px;
+}
+
+.demonstrativo {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    gap: 20px;
+}
+
+.valores {
+    display: flex;
+    flex-direction: column;
+}
+
+.valores span {
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.small, small {
+    font-size: 13px;
+}
+
+.content-conteudo {
+    padding-bottom: 50px;
+}
+
+input, select {
+    border: 0;
+    border-bottom: 2px solid #fbad30;
+    height: 46px;
+    padding: 0px 20px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.table{
+    min-width: 600px;
+}
+
+.red{
+    color: red;
+}
+
+td.transacao-despesa{
+    color: red;
+}
+
+td.transacao-receita{
+    color: green;
+}
+
+
+.btn-transacao {
+    border: 1px solid #fbad30;
+    border-radius: 20px;
+    padding: 10px 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    transition: 0.2s ease;
+    margin: 10px 0px 30px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.btn-transacao:hover {
+    background: #fbad30;
+    color: white;
+}
+
+span.excluir-transacao {
+    padding-left: 10px;
+}
+
+span.editar-transacao, span.excluir-transacao{
+    cursor: pointer; 
+    transition: 0.2s ease;   
+}
+
+span.editar-transacao svg, span.excluir-transacao svg{
+    transition: 0.2s ease;   
+}
+
+span.editar-transacao:hover svg, span.excluir-transacao:hover svg{
+    transform: scale(1.2);  
+    transition: 0.5s ease;    
+}
+
+@media (min-width:1024px) {
+    main {
+        padding-left: 200px;
+    }
+
+    .content-conteudo {
+        padding-left: 50px;
+        padding-bottom: 0px;
+    }
+
+    section.barra-top {
+        justify-content: space-between;
+        padding: 0px 40px;
+    }
+
+    .demonstrativo {
+        width: auto;
+        gap: 30px;
+    }
+
+    .valores span {
+        font-weight: 600;
+        font-size: 25px;
+    }
+}
