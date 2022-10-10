@@ -24,7 +24,7 @@ Desenvolvimento de uma solução para Controle Financeiro. Calculando seu saldo 
 
      4. Após instalar o Life Server clicar na opção Go Live na parte inferior da tela, conforme print abaixo: 
   
- <img src="https://github.com/victordias25/trabalho-spring-43scj/blob/main/img/1.PNG">
+ <img src="https://github.com/victordias25/trabalho-fiap-webservices/blob/main/images/1.PNG">
  
  
  ## ✔️ Como utilizar a ferramenta de Controle Financeiro  
@@ -34,15 +34,15 @@ Desenvolvimento de uma solução para Controle Financeiro. Calculando seu saldo 
 
        2. Print da tela inicial:
 
-      <img src="https://github.com/victordias25/trabalho-spring-43scj/blob/main/img/1.PNG">
+      <img src="https://github.com/victordias25/trabalho-fiap-webservices/blob/main/images/2.PNG">
 
        3. Clicando na opção: “Adicionar Transação” a seguinte tela é aberta:
 
-      <img src="https://github.com/victordias25/trabalho-spring-43scj/blob/main/img/1.PNG">
+      <img src="https://github.com/victordias25/trabalho-fiap-webservices/blob/main/images/3.PNG">
 
        4. Após fazer seus lançamentos de Receita e Despesa o Saldo é Calculado:
 
-      <img src="https://github.com/victordias25/trabalho-spring-43scj/blob/main/img/1.PNG">
+      <img src="https://github.com/victordias25/trabalho-fiap-webservices/blob/main/images/4.PNG">
 
 
 ## ✔️ Documentação
