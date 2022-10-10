@@ -30,7 +30,7 @@ Desenvolvimento de uma solução para Controle Financeiro. Calculando seu saldo 
  ## ✔️ Como utilizar a ferramenta de Controle Financeiro  
 
        1. Após clicar na opção Go Live, como mencionado acima. Acessar a ferramenta de Controle Financeiro utilizando 
-             a seguinte URL: http://localhost:5500
+             a seguinte URL: http://localhost:5500/
 
        2. Print da tela inicial:
 
