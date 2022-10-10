@@ -31,7 +31,8 @@ Desenvolvimento de uma solução para Controle Financeiro. Calculando seu saldo 
  
  ## ✔️ Como utilizar a ferramenta de Controle Financeiro  
 
-      - ``1. Após clicar na opção Go Live, como mencionado acima. Acessar a ferramenta de Controle Financeiro utilizando a seguinte URL: http://localhost:5500/`` 
+      - ``1. Após clicar na opção Go Live, como mencionado acima. Acessar a ferramenta de Controle Financeiro utilizando 
+             a seguinte URL: http://localhost:5500/`` 
 
       - ``2. Print da tela inicial:`` 
 
@@ -48,7 +49,8 @@ Desenvolvimento de uma solução para Controle Financeiro. Calculando seu saldo 
 
 ## ✔️ Documentação
 
-- ``Foi feito a documentação da API via OpenAPI (Swagger). A documentação da API  pode ser acessada através do Link: http://localhost:3000/doc`` 
+- ``Foi feito a documentação da API via OpenAPI (Swagger). A documentação da API  pode ser acessada através
+    do Link: http://localhost:3000/doc`` 
 
 ## ✔️ Tecnologias utilizadas
 
