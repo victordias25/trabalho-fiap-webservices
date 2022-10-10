@@ -11,7 +11,8 @@ Desenvolvimento de uma solução para Controle Financeiro. Calculando seu saldo 
 
     - ``1. Via terminal pelo Visual Studio Code acessar a pasta webapi do projeto com o comando: cd .\webapi\ ``
 
-    - ``2. No terminal executar os seguintes comandos. (Instalar o Node JS e configurar a variável de ambiente para os comando abaixo funcionar):``
+    - ``2. No terminal executar os seguintes comandos. (Instalar o Node JS e configurar a variável de ambiente 
+           para os comando abaixo funcionar):``
 
             - ``npm install ``
 
