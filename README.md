@@ -3,7 +3,7 @@
 
 # Objetivo do projeto
 
-Desenvolvimento de uma solução para Controle Financeiro. Calculando seu saldo conforme suas receitas e despesas. Foi feito uma API REST e um Front-End. Com persistência local realizada em arquivo JSON.
+Desenvolvimento de uma solução para Controle Financeiro. Calculando seu saldo conforme suas receitas e despesas. Foi feito uma API REST e um Front-End. Com persistência local realizada em arquivo JSON e gestão de dependências usando o NPM.
 
 > :construction: Projeto Concluído
   
@@ -56,6 +56,7 @@ Desenvolvimento de uma solução para Controle Financeiro. Calculando seu saldo 
 - ``HTLM, CSS, JS``
 - ``OpenAPI (Swagger) ``
 - ``Node.js``
+- ``NPM``
 
 ## ✔️ Autores
 
