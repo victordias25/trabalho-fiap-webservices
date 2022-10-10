@@ -52,11 +52,11 @@ Desenvolvimento de uma solução para Controle Financeiro. Calculando seu saldo 
 
 ## ✔️ Tecnologias utilizadas
 
-Visual Studio Code
-JSON
-HTLM, CSS, JS
-OpenAPI (Swagger) 
-Node.js
+-Visual Studio Code
+-JSON
+-HTLM, CSS, JS
+-OpenAPI (Swagger) 
+-Node.js
 
 ## ✔️ Autores
 
