@@ -14,7 +14,7 @@ Desenvolvimento de uma solução para Controle Financeiro. Calculando seu saldo 
      2. No terminal executar os seguintes comandos. (Instalar o Node JS e configurar a variável de ambiente 
            para os comando abaixo funcionar):
 
-            - npm install`
+            - npm install
 
             - npm install nodemon 
 
@@ -30,7 +30,7 @@ Desenvolvimento de uma solução para Controle Financeiro. Calculando seu saldo 
  ## ✔️ Como utilizar a ferramenta de Controle Financeiro  
 
        1. Após clicar na opção Go Live, como mencionado acima. Acessar a ferramenta de Controle Financeiro utilizando 
-             a seguinte URL: http://localhost:5500/`` 
+             a seguinte URL: http://localhost:5500
 
        2. Print da tela inicial:
 
@@ -51,16 +51,16 @@ Desenvolvimento de uma solução para Controle Financeiro. Calculando seu saldo 
 
 ## ✔️ Tecnologias utilizadas
 
--Visual Studio Code
--JSON
--HTLM, CSS, JS
--OpenAPI (Swagger) 
--Node.js
+- ``Visual Studio Code``
+- ``JSON``
+- ``HTLM, CSS, JS``
+- ``OpenAPI (Swagger) ``
+- ``Node.js``
 
 ## ✔️ Autores
 
-Ali Tannouri Neto
-Matheus Ciribel
-Pedro Henrique Rossi
-Victor Alves Bugueno
-Victor Augusto Pereira Dias Nicola
+- ``Ali Tannouri Neto``
+- ``Matheus Ciribel``
+- ``Pedro Henrique Rossi``
+- ``Victor Alves Bugueno``
+- ``Victor Augusto Pereira Dias Nicola``
