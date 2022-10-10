@@ -9,9 +9,9 @@ Desenvolvimento de uma solução para Controle Financeiro. Calculando seu saldo 
   
 ## ✔️ Executando o projeto
 
-    - 1. Via terminal pelo Visual Studio Code acessar a pasta webapi do projeto com o comando: cd .\webapi\ 
+     1. Via terminal pelo Visual Studio Code acessar a pasta webapi do projeto com o comando: cd .\webapi\ 
 
-    - 2. No terminal executar os seguintes comandos. (Instalar o Node JS e configurar a variável de ambiente 
+     2. No terminal executar os seguintes comandos. (Instalar o Node JS e configurar a variável de ambiente 
            para os comando abaixo funcionar):
 
             - npm install`
@@ -20,48 +20,48 @@ Desenvolvimento de uma solução para Controle Financeiro. Calculando seu saldo 
 
             - npm run start 
 
-    - 3. Instalar a extensão Life Server no Visual Studio Code. 
+     3. Instalar a extensão Life Server no Visual Studio Code. 
 
-    - 4. Após instalar o Life Server clicar na opção Go Live na parte inferior da tela, conforme print abaixo: 
+     4. Após instalar o Life Server clicar na opção Go Live na parte inferior da tela, conforme print abaixo: 
   
  <img src="https://github.com/victordias25/trabalho-spring-43scj/blob/main/img/1.PNG">
  
  
  ## ✔️ Como utilizar a ferramenta de Controle Financeiro  
 
-      - ``1. Após clicar na opção Go Live, como mencionado acima. Acessar a ferramenta de Controle Financeiro utilizando 
+       1. Após clicar na opção Go Live, como mencionado acima. Acessar a ferramenta de Controle Financeiro utilizando 
              a seguinte URL: http://localhost:5500/`` 
 
-      - ``2. Print da tela inicial:`` 
+       2. Print da tela inicial:
 
       <img src="https://github.com/victordias25/trabalho-spring-43scj/blob/main/img/1.PNG">
 
-      - ``3. Clicando na opção: “Adicionar Transação” a seguinte tela é aberta:``
+       3. Clicando na opção: “Adicionar Transação” a seguinte tela é aberta:
 
       <img src="https://github.com/victordias25/trabalho-spring-43scj/blob/main/img/1.PNG">
 
-      - ``4. Após fazer seus lançamentos de Receita e Despesa o Saldo é Calculado:``
+       4. Após fazer seus lançamentos de Receita e Despesa o Saldo é Calculado:
 
       <img src="https://github.com/victordias25/trabalho-spring-43scj/blob/main/img/1.PNG">
 
 
 ## ✔️ Documentação
 
-- ``Foi feito a documentação da API via OpenAPI (Swagger). A documentação da API  pode ser acessada através
-    do Link: http://localhost:3000/doc`` 
+ Foi feito a documentação da API via OpenAPI (Swagger). A documentação da API  pode ser acessada através
+    do Link: http://localhost:3000/doc
 
 ## ✔️ Tecnologias utilizadas
 
-- ``Visual Studio Code``
-- ``JSON``
-- ``HTLM, CSS, JS``
-- ``OpenAPI (Swagger)``  
-- ``Node.js`` 
+Visual Studio Code
+JSON
+HTLM, CSS, JS
+OpenAPI (Swagger) 
+Node.js
 
 ## ✔️ Autores
 
-- ``Ali Tannouri Neto``
-- ``Matheus Ciribel``
-- ``Pedro Henrique Rossi``
-- ``Victor Alves Bugueno``
-- ``Victor Augusto Pereira Dias Nicola``
+Ali Tannouri Neto
+Matheus Ciribel
+Pedro Henrique Rossi
+Victor Alves Bugueno
+Victor Augusto Pereira Dias Nicola
