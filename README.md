@@ -9,20 +9,20 @@ Desenvolvimento de uma solução para Controle Financeiro. Calculando seu saldo 
   
 ## ✔️ Executando o projeto
 
-    - ``1. Via terminal pelo Visual Studio Code acessar a pasta webapi do projeto com o comando: cd .\webapi\ ``
+    - 1. Via terminal pelo Visual Studio Code acessar a pasta webapi do projeto com o comando: cd .\webapi\ 
 
-    - ``2. No terminal executar os seguintes comandos. (Instalar o Node JS e configurar a variável de ambiente 
-           para os comando abaixo funcionar):``
+    - 2. No terminal executar os seguintes comandos. (Instalar o Node JS e configurar a variável de ambiente 
+           para os comando abaixo funcionar):
 
-            - ``npm install ``
+            - npm install`
 
-            - ``npm install nodemon ``
+            - npm install nodemon 
 
-            - ``npm run start ``
+            - npm run start 
 
-    - ``3. Instalar a extensão Life Server no Visual Studio Code. ``
+    - 3. Instalar a extensão Life Server no Visual Studio Code. 
 
-    - ``4. Após instalar o Life Server clicar na opção Go Live na parte inferior da tela, conforme print abaixo: ``
+    - 4. Após instalar o Life Server clicar na opção Go Live na parte inferior da tela, conforme print abaixo: 
   
  <img src="https://github.com/victordias25/trabalho-spring-43scj/blob/main/img/1.PNG">
  
